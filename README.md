@@ -1,1 +1,1 @@
-http://ku-storage.github.io
+KU
