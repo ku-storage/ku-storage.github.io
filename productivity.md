@@ -7,10 +7,11 @@ productivity
 <p>disclaimer: trash garbage page for personal use only</p>
    <br>
    <h1>maths revision sauce and inspo</h1>
+   <a href="https://www.youtube.com/@madasmaths8510/playlists" target ="x">madasmaths</a> a
 <div>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-   <a href="https://www.youtube.com/@madasmaths8510/playlists" target ="x">madasmaths</a> 
-   <iframe src="frame.html" name="x"width="350px" height="5"></iframe>
+   <iframe src="https://www.youtube.com/@madasmaths8510/playlists"></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/FHjJ_cz8XD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
    <h1>videos to actually follow</h1>
 <div>
