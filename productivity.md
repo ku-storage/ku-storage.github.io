@@ -6,10 +6,10 @@ productivity
    
 <p>disclaimer: trash garbage page for personal use only (cries in attention deficiency)</p>
    <br>
-   <a href="#1">maths</a>
-   <a href="#2">tut</a>
-   <a href="#3">epq</a>
-   <a href="#4">old</a>
+   <a href="#1">maths</a><br>
+   <a href="#2">tut</a><br>
+   <a href="#3">epq</a><br>
+   <a href="#4">old</a><br>
    <br>
    <h1 id="1">maths revision sauce and inspo</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwYRGyUu9SsvWgg-0kqPmWKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
