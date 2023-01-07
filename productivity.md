@@ -6,8 +6,12 @@ productivity
    
 <p>disclaimer: trash garbage page for personal use only (cries in attention deficiency)</p>
    <br>
-   
-   <h1>maths revision sauce and inspo</h1>
+   <a href="#1">maths</a>
+   <a href="#2">tut</a>
+   <a href="#3">epq</a>
+   <a href="#4">old</a>
+   <br>
+   <h1 id="1">maths revision sauce and inspo</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwYRGyUu9SsvWgg-0kqPmWKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwYkhyhHv4rz-GY69X5HQooq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwaVKonrpflg0JGJ88-CCtWV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -20,7 +24,7 @@ productivity
    <iframe width="560" height="315" src="https://www.youtube.com/embed/FHjJ_cz8XD4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br>
    
-   <h1>videos to actually follow</h1>
+   <h1 id="2">videos to actually follow</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/31bERYN0uio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL7C8fMD-89DJYel7OqopqKQ6wJKlOTxHI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/rfscVS0vtbw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -36,10 +40,11 @@ productivity
    <iframe width="560" height="315" src="https://www.youtube.com/embed/vLnPwxZdW4Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       <br>
    
-   <h1>cries in EPQ</h1>
+   <h1 id="3">cries in EPQ</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/FazgJVnrVuI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
    
    <br><br>
+   <h1 id="4">old</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/0lIWuXguJnA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/kkZD_N8_m6k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/8rrHTtUzyZA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
