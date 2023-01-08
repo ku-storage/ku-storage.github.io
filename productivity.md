@@ -11,6 +11,40 @@ productivity
    <a href="#3">epq</a><br>
    <a href="#4">old</a><br>
    <br>
+   <h1>ExamSolutions</h1>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/q7uFktsOqd8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/0a49i46yw8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NgtD4UAvMr4pH2lAt6Trv9U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjNgPATxL_qG7lJfrRQHFfo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>see channel for more exam Q</p>
+   <p>algebra and functions</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3Ng7Gk_8iKmPFgj3HgWjNYef" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NizERREXZsfMrpxgnVkx7YC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>binomial expansion</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjsFjBEf0mu1u9Q1-xczdva" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>coordinate geometry</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NhdUQlF9ImvckrSKF7z5Twm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>proof</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NhcP1rHha7CRvAx3J_mC3CS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>sequences and series</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjVd-LuSOhXgCQ1Et66Su8C" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>trig</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NhxNKBQ1WiUXmKUzqI__P0U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>logarithms and exponentials</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NiuvtGBhhR8Seqww7je85on" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>differentiation and integration</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjDXt9xL6r72aOQ61FDkMlM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjgJMWI2r0cM-3Ss7koyW8J" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>numerical methods</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3Ng-2J8zsWK8__qMLrCRbpl7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>vectors</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3Ng5jI3efBVO-NdebzhLb1S0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <p>workouts</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjlSbfkoKuiLvRM9Hob9Zyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3Nj-orfqWfO5FTfnBVFy7WiM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NhhgThOA-tqHVmIIIL8fvzH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NhDih09WlAzsUAYfx5eAw18" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PL5pdglZEO3NjlSbfkoKuiLvRM9Hob9Zyj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <h1 id="1">maths revision sauce and inspo</h1>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwYRGyUu9SsvWgg-0kqPmWKS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLTgS_vvDEfwYkhyhHv4rz-GY69X5HQooq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
