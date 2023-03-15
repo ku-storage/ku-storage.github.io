@@ -5,6 +5,7 @@ productivity
 <body>
    
 <p>disclaimer: trash garbage page for personal use only (cries in attention deficiency)</p>
+   <p>all of 3b1b</p><iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=UUYO_jab_esuFRV4b17AJtAw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
    <br>
    <a href="#1">maths</a><br>
    <a href="#2">tut</a><br>
