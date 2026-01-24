@@ -10,7 +10,7 @@ redirect_from:
 I draw! 我是一个爱画画的人
 
 Some other things about me:
-- I love Vocaloid and started a [Vocaloid club]([https://github.com/academicpages/academicpages.github.io](https://kcl-vocaloid.github.io/)) at my university!
+- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university!
 
 A data-driven personal website
 ======
