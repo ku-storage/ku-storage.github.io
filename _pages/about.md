@@ -10,7 +10,10 @@ redirect_from:
 I draw! 我是一个爱画画的人
 
 Some other things about me:
-- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university!
+- I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
+- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (that I'm gradually stepping away from)
+
+No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally.
 
 A data-driven personal website
 ======
