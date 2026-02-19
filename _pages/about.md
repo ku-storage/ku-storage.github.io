@@ -13,7 +13,8 @@ Some other things about me:
 - I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
 - I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (that I'm gradually stepping away from)
 
-No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally.
+No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally. 
+I block people usually because they have said something that made me think I’d rather not have to interact with them in the future (including under posts that have nothing to do with mine). The demographics between that and my follower list usually do not overlap at all, but if you think you were wrongly blocked, please send an email over and I’ll unblock you (I will not unblock you if you commented something personally offensive under my posts).
 
 Accounts I no longer actively use:
 
