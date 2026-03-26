@@ -6,8 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I draw! 我是一个爱画画的人
+I'm 庫/ku and I draw sometimes!
+我是一个爱画画的人
 
 Some other things about me:
 - I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
@@ -15,19 +15,31 @@ Some other things about me:
 
 No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally. 
 I block people usually because they have said something that made me think I’d rather not have to interact with them in the future (including under posts that have nothing to do with mine). The demographics between that and my follower list usually do not overlap at all, but if you think you were wrongly blocked, please send an email over and I’ll unblock you (I will not unblock you if you commented something personally offensive under my posts).
+<br>
 
-Accounts I no longer actively use:
-
-I only use the above accounts to post publicly. Any accounts not listed here are not associated with me.
-
-A data-driven personal website
+Accounts 各平台账号
 ======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so).
+**email contact/collaboration enquiries: lurendesu@gmail.com**
+<br>
+YouTube: [@ku_storage](https://youtube.com/@ku_storage) 
+Bilibili: [ku_storage](https://space.bilibili.com/48854063) 
+Tiktok: [@ku_storage](https://www.tiktok.com/@ku_storage) 
+rednote (小红书): [ku_storage](https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3) 
+Instagram: [@ku_storage](https://www.instagram.com/ku_storage) 
+Bluesky: [@ku_storage](https://www.instagram.com/ku_storage) 
+<br>
+**Others 不活跃账号 (accounts I no longer actively use):**
+小红书 (for illustrations): 庫 
+Twitter: @ku_storage
+Pixiv: 101406412
+Etsy: kustorage
+微店: kustorage
+Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name)
+**I only use these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.**
+<br>
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
 
-contacts/collaborations
-======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
 1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
@@ -35,14 +47,6 @@ contacts/collaborations
 1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
 1. Check status by going to the repository settings, in the "GitHub pages" section
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
-
 Create content & metadata
 ------
 For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
-
-
-This is a website powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages.
-
