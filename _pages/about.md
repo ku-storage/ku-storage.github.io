@@ -19,24 +19,25 @@ I block people usually because they have said something that made me think I’d
 
 Accounts 各平台账号
 ======
-I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so).
-**email contact/collaboration enquiries: lurendesu@gmail.com**
+I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
+**email contact/collaboration enquiries: lurendesu@gmail.com**<br>
 <br>
-YouTube: [@ku_storage](https://youtube.com/@ku_storage) 
-Bilibili: [ku_storage](https://space.bilibili.com/48854063) 
-Tiktok: [@ku_storage](https://www.tiktok.com/@ku_storage) 
-rednote (小红书): [ku_storage](https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3) 
-Instagram: [@ku_storage](https://www.instagram.com/ku_storage) 
-Bluesky: [@ku_storage](https://www.instagram.com/ku_storage) 
 <br>
-**Others 不活跃账号 (accounts I no longer actively use):**
-小红书 (for illustrations): 庫 
-Twitter: @ku_storage
-Pixiv: 101406412
-Etsy: kustorage
-微店: kustorage
-Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name)
-**I only use these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.**
+YouTube: [@ku_storage](https://youtube.com/@ku_storage) <br>
+Bilibili: [ku_storage](https://space.bilibili.com/48854063) <br>
+Tiktok: [@ku_storage](https://www.tiktok.com/@ku_storage) <br>
+rednote (小红书): [ku_storage](https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3) <br>
+Instagram: [@ku_storage](https://www.instagram.com/ku_storage) <br>
+Bluesky: [@ku_storage](https://www.instagram.com/ku_storage) <br>
+<br>
+**Others 不活跃账号 (accounts I no longer actively use):** <br>
+小红书 (for illustrations): 庫 <br>
+Twitter: @ku_storage <br>
+Pixiv: 101406412 <br>
+Etsy: kustorage <br>
+微店: kustorage <br>
+Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br>
+**I only use these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.** <br>
 <br>
 
 
