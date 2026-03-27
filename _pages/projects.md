@@ -6,6 +6,17 @@ author_profile: true
 
 {% include base_path %}
 
-Other notes / 其他
+zines / 合志
 ------
-aaa
+**2025:**<br>
+[_VocaJams: Summertime Roadtrip_](https://vocajams.eu/)<br><br>
+**2024:**<br>
+[_Limelight: an OC Zine (MOUSIKA edition)_](https://limelightoczine.itch.io/mousika)<br><br>
+
+exhibitions & conventions / 漫展
+------
+**2025:**<br>
+
+merch / 周边
+------
+**2025:**<br>
