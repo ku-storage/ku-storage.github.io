@@ -16,6 +16,8 @@ Some other things about me:
 No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally. 
 I block people usually because they have said something that made me think I’d rather not have to interact with them in the future (including under posts that have nothing to do with mine). The demographics between that and my follower list usually do not overlap at all, but if you think you were wrongly blocked, please send an email over and I’ll unblock you (I will not unblock you if you commented something personally offensive under my posts).
 <br>
+I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
+**email contact/collaboration enquiries: lurendesu@gmail.com**<br>
 
 Accounts / 各平台账号
 ------
@@ -26,16 +28,15 @@ Accounts / 各平台账号
 **Bilibili (哔哩哔哩):** [ku_storage](https://space.bilibili.com/48854063) <br>
 **rednote (小红书):** [ku_storage](https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3) <br>
 <br>
-**Others 不活跃账号 (accounts I no longer actively use):** <br><br>
+**Others / 不活跃账号:** <br>
+(accounts I no longer actively use)<br><br>
 小红书 (for illustrations): 庫 <br>
 Twitter: @ku_storage <br>
 Pixiv: 101406412 <br>
 Etsy: kustorage <br>
 微店: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
-**I only use these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.** <br>
-I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
-**email contact/collaboration enquiries: lurendesu@gmail.com**<br>
+**I only use/have only used these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.** <br>
 <br>
 
 
