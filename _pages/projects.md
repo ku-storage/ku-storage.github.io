@@ -1,5 +1,5 @@
 ---
-title: "other projects I was involved in"
+title: "other ventures I was involved in"
 permalink: /projects/
 author_profile: true
 ---
@@ -21,7 +21,9 @@ exhibitions & conventions / 漫展
 [KCL Art Fair](https://www.instagram.com/p/DV1hoZ8iBcy/?img_index=1)<br>
 
 **2025:**<br>
+KCL Welcome Fair (KCL Vocaloid Society)<br><br>
 [ICon: Imperial's Nerdiest Convention](https://www.instagram.com/icon_on_insta/)
+stall image
 
 merch / 周边
 ------
