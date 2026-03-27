@@ -1,5 +1,5 @@
 ---
-title: "Other projects I was involved in"
+title: "other projects I was involved in"
 permalink: /projects/
 author_profile: true
 ---
