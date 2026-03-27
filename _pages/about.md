@@ -35,7 +35,7 @@ Etsy: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
 **I only use the above accounts to post publicly. Any accounts not listed are not associated with ku_storage.** <br>
 
-Using my content
+Using my content / 作品使用规约
 ------
 **Videos:**<br>
 repost onto any platform, with accounts that are not monetised: OK with proper credit<br><br>
@@ -45,7 +45,7 @@ Not ok: Printing my art for sale, or to gift out to friends<br><br>
 
 If in doubt, please email!
 
-Other notes
+Other notes / 其他
 ------
 Some other things about me:
 - I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
