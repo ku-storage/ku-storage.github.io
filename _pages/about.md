@@ -96,7 +96,7 @@ Other notes / 其他
 - I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (video incoming...?)<br>
 - Since I do all of this for fun, I only want to work/interact with people I wouldn't feel uncomfortable around. I sometimes block people if I saw them saying something that made me think I’d rather not see more stuff from them, including comments under posts unrelated to my content.<br>
 <br><br>
-- 由于现实繁忙，可能无法回复每一条评论或私信，先提前说声抱歉！ <br>
+- 由于现实繁忙，可能无法回复每一条评论或私信，提前说声抱歉！ <br>
 - 画画是作为纯爱好者在画，不接稿件+没有向职业发展的高级志向，所以不接受指点 <br>
 - 很喜欢 Vocaloid并在大学创办了[术力口](https://kcl-vocaloid.github.io/)社团（相关视频锐意制作中…？）<br>
 - 兴趣使然，只想做自己想做的/和合得来的人相处；看到让人不愉快的言论（包括在我发布的内容以外的地方）可能会直接拉黑
