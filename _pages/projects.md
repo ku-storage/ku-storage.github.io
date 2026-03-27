@@ -9,11 +9,11 @@ author_profile: true
 zines / 合志
 ------
 **2025:**<br>
-[_VocaJams: Summertime Roadtrip_](https://vocajams.eu/)<br><br>
-image<br>
+[_VocaJams: Summertime Roadtrip_](https://vocajams.eu/)<br>
+<img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreigedzs2qktzgrygjr2o53vewlfgkuljy7foh6aoeczjajx366lz4a" alt="vocajams"><br><br>
 **2024:**<br>
 [_Limelight: an OC Zine (MOUSIKA edition)_](https://limelightoczine.itch.io/mousika)<br><br>
-image<br>
+<img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreid6njsped5e7spwfcjaymk5u53blsqazlaas5rsirml3nf5xdyeby" alt="limelight"><br><br>
 
 exhibitions & conventions / 漫展
 ------
@@ -23,7 +23,7 @@ exhibitions & conventions / 漫展
 **2025:**<br>
 KCL Welcome Fair (KCL Vocaloid Society)<br><br>
 [ICon: Imperial's Nerdiest Convention](https://www.instagram.com/icon_on_insta/)
-stall image
+<img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreieuythz7ttz3xfdcoec5rzyyd2od5zb4chavtn4sel6yu4zsacpva" alt="icon"><br><br>
 
 merch / 周边
 ------
