@@ -6,16 +6,9 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm 庫/ku and I draw sometimes!
+I'm 庫/ku and I draw sometimes!<br>
 我是一个爱画画的人
-
-Some other things about me:
-- I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
-- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (that I'm gradually stepping away from)
-
-No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around personally. 
-I block people usually because they have said something that made me think I’d rather not have to interact with them in the future (including under posts that have nothing to do with mine). The demographics between that and my follower list usually do not overlap at all, but if you think you were wrongly blocked, please send an email over and I’ll unblock you (I will not unblock you if you commented something personally offensive under my posts).
-<br>
+<br><br>
 I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
 **email contact/collaboration enquiries: lurendesu@gmail.com**<br>
 
@@ -38,6 +31,25 @@ Etsy: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
 **I only use/have only used these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.** <br>
 <br>
+
+Using my content
+------
+Videos:<br>
+repost onto any platform, with accounts that are not monetised: OK with proper credit<br><br>
+Art:<br>
+OK, credit appreciated but not necessary: use as profile picture/banner on social media accounts with < 1000 followers (please email to ask for my permission if your account has more followers than this; using my art without my permisson in this case is STRICTLY FORBIDDEN)<br>
+Not ok: Printing my art for sale, or to gift out to friends<br><br>
+
+If in doubt, please email!
+
+Other notes
+------
+Some other things about me:
+- I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
+- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (that I'm gradually stepping away from)
+<br>
+No personal offense if I've blocked you on anywhere! Since I do this for fun and only make things I like, I only want to work/interact with people I wouldn't feel uncomfortable around. 
+I block people usually because they have said something that made me think I’d rather not have to interact with them in the future (including under posts that have nothing to do with mine). <br>
 
 Create content & metadata
 ------
