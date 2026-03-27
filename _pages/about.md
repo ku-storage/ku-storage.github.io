@@ -10,7 +10,7 @@ I'm ku and I draw sometimes!<br>
 我是库，一个偶尔画画的人！
 <br><br>
 I don't check social media notifications a lot, so the fastest way to reach me would be via email (please only email me for business/collaboration enquiries, or if you have an actual reason to do so). <br>
-**I can correspond in English or Chinese (traditional/simplified).** I can also read messages sent in Japanese/Cantonese, but there will be a delay in responding as I need to ask my friends to proofread my reply. Please use the language you're most comfortable with. <br><br>
+**I can correspond in English or Chinese (traditional/simplified).** I can also read messages sent in Japanese, but there will be a delay in responding as I will need to ask someone to proofread my reply. Please use the language you're most comfortable with. <br><br>
 不怎么查看平台上的消息，如有急事/合作洽谈麻烦邮件联系。英语或简/繁中均可（原文是中文的消息麻烦不要机器翻译成英语）。
 <br><br>
 
