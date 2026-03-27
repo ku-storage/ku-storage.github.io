@@ -33,5 +33,6 @@ KCL Welcome Fair (as KCL Vocaloid Society)<br>
 merch / 周边
 ------
 **2025:**<br>
+KCL Vocaloid merchandise (design)<br>
 **2024:**<br>
 Miku Expo keychain/stickers - design/illustration
