@@ -33,7 +33,7 @@ Pixiv: 101406412 <br>
 Etsy: kustorage <br>
 微店: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
-**I only use/have only used these accounts to post publicly. Any accounts not listed above are not associated with ku_storage.** <br>
+**I only use the above accounts to post publicly. Any accounts not listed are not associated with ku_storage.** <br>
 <br>
 
 Using my content
