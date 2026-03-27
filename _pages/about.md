@@ -18,7 +18,7 @@ I don't check social media notifications a lot, so the fastest way to reach me w
 
 **✉️ email: lurendesu@gmail.com**<br>
 
-Accounts / 各平台账号
+accounts / 各平台账号
 ------
 **YouTube:** [@ku_storage](https://youtube.com/@ku_storage) <br>
 **Tiktok:** [@ku_storage](https://www.tiktok.com/@ku_storage) <br>
@@ -36,8 +36,9 @@ Etsy: kustorage <br>
 微店: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
 **I only use the above accounts to post publicly. Any accounts not listed are not associated with ku_storage.** <br>
+**目前在公开使用的只有以上账号。** <br>
 
-Using my content / 作品使用规约
+using my content / 作品使用规约
 ------
 **Videos:**<br>
 ✅ OK:<br>
@@ -48,7 +49,7 @@ Using my content / 作品使用规约
 ■ reposting my videos onto platforms I have an account on (including inactive ones), or with monetised accounts without prior permission<br>
 ■ using my content commercially, or claiming them as your own<br>
 ■ using my content in datasets used to train Generative AI models<br>
-<br><br>
+<br>
 **Illustrations/video screenshots:**<br>
 ✅ OK:<br>
 ■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
@@ -74,7 +75,7 @@ If in doubt, please email to enquire!<br><br>
 ■ 未经许可在我已有账号的平台（包括不活跃账号）转载，或使用有收益/企业账号转载<br>
 ■ 用于商业用途，或冒充为自己的作品<br>
 ■ 用于生成式AI模型训练数据集<br>
-<br><br>
+<br>
 **插画/视频截图:**<br>
 ✅ OK:<br>
 ■ 在任何平台转载，但必须注明出处（原作者：@ku_storage），且账号无收益/粉丝数少于1000 <br>
@@ -91,7 +92,7 @@ If in doubt, please email to enquire!<br><br>
 ■ 用于生成式AI模型训练数据集<br><br>
 如有疑问，请发邮件确认！
 
-Other notes / 其他
+other notes / 其他
 ------
 - I might not get to every comment/DM due to how busy I am with university; sorry in advance!<br>
 - I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am (please no unsolicited criticisms).<br>
@@ -102,3 +103,6 @@ Other notes / 其他
 - 画画是作为纯爱好者在画，不接稿件+没有向职业发展的高级志向，所以不接受指点 <br>
 - 很喜欢 Vocaloid并在大学创办了[术力口](https://kcl-vocaloid.github.io/)社团（相关视频锐意制作中…？）<br>
 - 兴趣使然，只想做自己想做的/和合得来的人相处；看到让人不愉快的言论（包括在我发布的内容以外的地方）可能会直接拉黑
+
+friend links / 友链
+------
