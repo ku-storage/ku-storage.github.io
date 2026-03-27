@@ -12,7 +12,7 @@ zines / 合志
 [_VocaJams: Summertime Roadtrip_](https://vocajams.eu/)<br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreigedzs2qktzgrygjr2o53vewlfgkuljy7foh6aoeczjajx366lz4a" alt="vocajams"><br><br>
 **2024:**<br>
-[_Limelight: an OC Zine (MOUSIKA edition)_](https://limelightoczine.itch.io/mousika)<br><br>
+[_Limelight: an OC Zine (MOUSIKA edition)_](https://limelightoczine.itch.io/mousika)<br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreid6njsped5e7spwfcjaymk5u53blsqazlaas5rsirml3nf5xdyeby" alt="limelight"><br><br>
 
 exhibitions & conventions / 漫展
