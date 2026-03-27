@@ -6,6 +6,11 @@ author_profile: true
 
 {% include base_path %}
 
+works / 代表作
+------
+**2025:**<br>
+KCL Miku design
+
 zines / 合志
 ------
 **2025:**<br>
@@ -28,3 +33,5 @@ KCL Welcome Fair (as KCL Vocaloid Society)<br>
 merch / 周边
 ------
 **2025:**<br>
+**2024:**<br>
+Miku Expo keychain/stickers - design/illustration
