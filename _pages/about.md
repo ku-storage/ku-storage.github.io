@@ -14,9 +14,9 @@ I don't check social media notifications a lot, so the fastest way to reach me w
 不怎么查看平台上的消息，如有急事/合作洽谈麻烦邮件联系。英语或简/繁中均可（原文是中文的消息麻烦不要机器翻译成英语）。
 <br><br>
 
-**email: lurendesu@gmail.com**<br>
+**✉️ email: lurendesu@gmail.com**<br>
 
-📺 Accounts / 各平台账号
+Accounts / 各平台账号
 ------
 **YouTube:** [@ku_storage](https://youtube.com/@ku_storage) <br>
 **Tiktok:** [@ku_storage](https://www.tiktok.com/@ku_storage) <br>
