@@ -40,7 +40,7 @@ Using my content / 作品使用规约
 **Videos:**<br>
 ☑️ OK:<br>
 ■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
-<br><br>
+<br>
 🚫 Prohibited:<br>
 ■ reposting my content after editing<br>
 ■ reposting my videos onto platforms I have an account on (including inactive ones), or with monetised accounts without prior permission<br>
