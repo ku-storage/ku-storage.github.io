@@ -61,8 +61,7 @@ Using my content / 作品使用规约
 ■ using/copying my art for commercial purposes/competitions, or claiming my art as your own<br>
 ■ using my art on monetised accounts/accounts with > 1000 followers without prior permission<br>
 ■ using my art in datasets used to train Generative AI models<br>
-<br><br>
-
+<br>
 If in doubt, please email to enquire!
 
 Other notes / 其他
