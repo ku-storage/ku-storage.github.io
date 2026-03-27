@@ -34,13 +34,12 @@ Etsy: kustorage <br>
 微店: kustorage <br>
 Bilibili/YouTube: luren_account (alias created for video content until I decided to just post under my current name) <br><br>
 **I only use the above accounts to post publicly. Any accounts not listed are not associated with ku_storage.** <br>
-<br>
 
 Using my content
 ------
-Videos:<br>
+**Videos:**<br>
 repost onto any platform, with accounts that are not monetised: OK with proper credit<br><br>
-Art:<br>
+**Art:**<br>
 OK, credit appreciated but not necessary: use as profile picture/banner on social media accounts with < 1000 followers (please email to ask for my permission if your account has more followers than this; using my art without my permisson in this case is STRICTLY FORBIDDEN)<br>
 Not ok: Printing my art for sale, or to gift out to friends<br><br>
 
