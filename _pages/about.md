@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "about ku-storage"
+title: "🌊 about ku-storage"
 author_profile: true
 redirect_from: 
   - /about/
@@ -16,7 +16,7 @@ I don't check social media notifications a lot, so the fastest way to reach me w
 
 **email: lurendesu@gmail.com**<br>
 
-Accounts / 各平台账号
+📺 Accounts / 各平台账号
 ------
 **YouTube:** [@ku_storage](https://youtube.com/@ku_storage) <br>
 **Tiktok:** [@ku_storage](https://www.tiktok.com/@ku_storage) <br>
