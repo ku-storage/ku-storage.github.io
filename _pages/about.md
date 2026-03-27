@@ -6,7 +6,8 @@ redirect_from:
   - /about/
   - /about.html
 ---
-!ku_storage about me](/images/cover.PNG){: .align-right width="300px"}
+
+![ku_storage about me](/images/cover.PNG){: .align-right width="300px"}
 I'm ku and I draw sometimes!<br>
 我是库，一个偶尔画画的人！
 <br><br><br>
