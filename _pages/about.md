@@ -9,9 +9,9 @@ redirect_from:
 I'm ku and I draw sometimes!<br>
 我是库，一个偶尔画画的人！
 <br><br>
-I don't check social media notifications a lot, so the fastest way to reach me would be via email. Please only email me for business/collaboration enquiries, or if you have an urgent reason. <br><br>
+I don't check social media notifications a lot, so the fastest way to reach me would be via email. Please only email me for business/collaboration and seriousenquiries. <br><br>
 **I can correspond in English or Chinese (traditional/simplified). I can also read messages sent in Japanese,** but there will be a delay in responding as I will need to ask someone to proofread my reply. Please use the language you're most comfortable with. <br><br>
-不怎么查看平台上的消息，如有急事/合作洽谈麻烦邮件联系。英语或简/繁中均可（原文是中文的消息麻烦不要机器翻译成英语）。
+不怎么查看平台上的消息，如有迫切需要询问的问题/合作洽谈麻烦邮件联系。英语或简/繁中均可（原文是中文的消息麻烦不要机器翻译成英语）。
 <br><br>
 
 **✉️ email: lurendesu@gmail.com**<br>
@@ -38,12 +38,32 @@ Bilibili/YouTube: luren_account (alias created for video content until I decided
 Using my content / 作品使用规约
 ------
 **Videos:**<br>
-repost onto any platform, with accounts that are not monetised: OK with proper credit<br><br>
-**Art:**<br>
-OK, credit appreciated but not necessary: use as profile picture/banner on social media accounts with < 1000 followers (please email to ask for my permission if your account has more followers than this; using my art without my permisson in this case is STRICTLY FORBIDDEN)<br>
-Not ok: Printing my art for sale, or to gift out to friends<br><br>
+☑️ OK:<br>
+■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
+<br><br>
+🚫 Prohibited:<br>
+■ reposting my content after editing<br>
+■ reposting my videos onto platforms I have an account on (including inactive ones), or with monetised accounts without prior permission<br>
+■ using my content commercially, or claiming them as your own<br>
+■ using my content in datasets used to train Generative AI models<br>
+<br><br>
+**Art/video screenshots:**<br>
+☑️ OK:<br>
+■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
+■ using my art as profile picture/banner/wallpaper etc. on personal social media accounts with < 1000 followers; credit is appreciated but not mandatory<br>
+■ printing my art out for personal use (e.g. as posters to decorate your room with)<br>
+■ studying my art, with proper credits when posting publicly <br>
 
-If in doubt, please email!
+🚫 Prohibited:<br>
+■ reposting my art after editing
+■ reposting my art onto platforms I have an account on (including inactive ones)<br>
+■ printing my art for sale, or to gift out in mass quantities<br>
+■ using/copying my art for commercial purposes/competitions, or claiming my art as your own<br>
+■ using my art on monetised accounts/accounts with > 1000 followers without prior permission<br>
+■ using my art in datasets used to train Generative AI models<br>
+<br><br>
+
+If in doubt, please email to enquire!
 
 Other notes / 其他
 ------
