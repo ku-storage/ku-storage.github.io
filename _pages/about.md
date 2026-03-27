@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "ku-storage"
+title: "about ku-storage"
 author_profile: true
 redirect_from: 
   - /about/
