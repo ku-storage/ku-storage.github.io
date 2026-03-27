@@ -6,11 +6,12 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I'm 庫/ku and I draw sometimes!<br>
-我是一个爱画画的人
+I'm ku and I draw sometimes!<br>
+我是库，一个偶尔画画的人！
 <br><br>
-I don't check my notifications a lot, so the fastest way to reach me would be via email rather than direct message on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
+I don't check my notifications a lot, so the fastest way to reach me would be via email, rather than messaging on any of the platforms I post on (please only email me if you have an actual reason to do so). <br>
 **email contact/collaboration enquiries: lurendesu@gmail.com**<br>
+I can correspond in English or Chinese (traditional/simplified). I can also read messages sent in Japanese/Cantonese.
 
 Accounts / 各平台账号
 ------
