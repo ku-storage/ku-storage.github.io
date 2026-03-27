@@ -10,12 +10,18 @@ zines / 合志
 ------
 **2025:**<br>
 [_VocaJams: Summertime Roadtrip_](https://vocajams.eu/)<br><br>
+image<br>
 **2024:**<br>
 [_Limelight: an OC Zine (MOUSIKA edition)_](https://limelightoczine.itch.io/mousika)<br><br>
+image<br>
 
 exhibitions & conventions / 漫展
 ------
+**2026:**<br>
+[KCL Art Fair](https://www.instagram.com/p/DV1hoZ8iBcy/?img_index=1)<br>
+
 **2025:**<br>
+[ICon: Imperial's Nerdiest Convention](https://www.instagram.com/icon_on_insta/)
 
 merch / 周边
 ------
