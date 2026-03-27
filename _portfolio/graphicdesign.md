@@ -12,12 +12,14 @@ collection: portfolio
 
 
 ## 2025
-### Event posters for ICon at Imperial College London/illustration by tsunamayy<br>
+### Event posters for ICon at Imperial College London<br>
+illustration by tsunamayy<br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreifmhtlu4jpwhyzenl4r6jgda4auseegolshiefct6mnppwkqvwlta" alt="icon"><br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreiat2wpeobcr2dfi5wkkdoccremqqhniz67or2mxrgflytvpv5m2sa" alt="icon"><br><br>
 ### Event logo for ICon<br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreif7zmflj6gohkbe75qmditimwq4ie5rnsww5gwfqt7ksanp57p3ga" alt="icon"><br>
-### KCL Vocaloid Society merchandise/illustration by stnsk<br>
+### Various KCL Vocaloid Society merchandise designs<br>
+illustration by stnsk<br>
 <img src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreiabcppfj36petcd6r57z7gk5g4oqkyz5agkm5nf4j7nl4h22aa5tm" alt="merch"><br><br>
 
 
