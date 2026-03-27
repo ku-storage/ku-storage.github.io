@@ -67,11 +67,8 @@ If in doubt, please email to enquire!
 Other notes / 其他
 ------
 Some other things about me:
-- I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am.
-- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (that I'm gradually stepping away from)
+- I might not get to every comment/DM due to how busy I am; sorry in advance!
+- I'm a hobbist so my technical skills are pretty immature; I'm not looking to do any of this as a job and I'm fine with where I currently am (please no unsolicited criticisms).
+- I love Vocaloid and started a [Vocaloid club](https://kcl-vocaloid.github.io/) at my university (video incoming...?)
+- Since I do all of this for fun, I only want to work/interact with people I wouldn't feel uncomfortable around. I sometimes block people if I saw them saying something that made me think I’d rather not see more stuff from them, including comments under posts unrelated to my content.
 <br>
-Since I do this for fun, I only want to work/interact with people I wouldn't feel uncomfortable around. I sometimes block people if they have said something that made me think I’d rather not interact with them, including under random posts unrelated to my content. <br>
-
-Create content & metadata
-------
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
