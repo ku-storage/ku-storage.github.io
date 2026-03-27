@@ -21,7 +21,7 @@ I don't check social media notifications a lot, so the fastest way to reach me w
 **YouTube:** [@ku_storage](https://youtube.com/@ku_storage) <br>
 **Tiktok:** [@ku_storage](https://www.tiktok.com/@ku_storage) <br>
 **Instagram:** [@ku_storage](https://www.instagram.com/ku_storage) <br>
-**Bluesky:** [@ku_storage](https://www.instagram.com/ku_storage) <br>
+**Bluesky:** [@ku_storage](https://bsky.app/profile/kustorage.bsky.social) <br>
 **Bilibili (哔哩哔哩):** [ku_storage](https://space.bilibili.com/48854063) <br>
 **rednote (小红书):** [ku_storage](https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3) <br>
 <br>
