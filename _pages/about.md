@@ -38,7 +38,7 @@ Bilibili/YouTube: luren_account (alias created for video content until I decided
 Using my content / 作品使用规约
 ------
 **Videos:**<br>
-☑️ OK:<br>
+✅ OK:<br>
 ■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
 <br>
 🚫 Prohibited:<br>
@@ -48,14 +48,14 @@ Using my content / 作品使用规约
 ■ using my content in datasets used to train Generative AI models<br>
 <br><br>
 **Art/video screenshots:**<br>
-☑️ OK:<br>
+✅ OK:<br>
 ■ reposting onto any platform WITH PROPER CREDIT (original by @ku_storage), for accounts that are not monetised/has < 1000 followers <br>
 ■ using my art as profile picture/banner/wallpaper etc. on personal social media accounts with < 1000 followers; credit is appreciated but not mandatory<br>
 ■ printing my art out for personal use (e.g. as posters to decorate your room with)<br>
 ■ studying my art, with proper credits when posting publicly <br>
 
 🚫 Prohibited:<br>
-■ reposting my art after editing
+■ reposting my art after editing<br>
 ■ reposting my art onto platforms I have an account on (including inactive ones)<br>
 ■ printing my art for sale, or to gift out in mass quantities<br>
 ■ using/copying my art for commercial purposes/competitions, or claiming my art as your own<br>
