@@ -1,6 +1,6 @@
 ---
 title: "Illustrations"
-excerpt: "artworks <br/><img src='/images/500x300.png'>"
+excerpt: "artworks <br/><img src='/images/illustrations.PNG'>"
 collection: portfolio
 ---
 
