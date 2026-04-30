@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ku_storage</title>
+  <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@300;400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg: #F5F3EF; --ink: #1C1B18; --ink-light: #6B6860;
+      --accent: #B87350; --rule: #D8D4CC; --white: #FEFCF8;
+      --serif: 'Cormorant Garamond', Georgia, serif;
+      --sans: 'DM Sans', sans-serif; --mono: 'DM Mono', monospace;
+    }
+    html { scroll-behavior: smooth; }
+    body { background: var(--bg); color: var(--ink); font-family: var(--sans); font-weight: 300; min-height: 100vh; overflow-x: hidden; }
+
+    /* ── GLOBAL NAV ── */
+    nav#main-nav {
+      position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+      background: var(--bg); border-bottom: 1px solid var(--rule);
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 0 3rem; height: 56px;
+    }
+    .nav-logo { font-family: var(--serif); font-size: 1.15rem; font-weight: 400; cursor: pointer; color: var(--ink); text-decoration: none; }
+    .nav-logo span { color: var(--accent); }
+    .nav-links { display: flex; gap: 2.5rem; list-style: none; }
+    .nav-links a {
+      font-family: var(--mono); font-size: 0.72rem; letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--ink-light); text-decoration: none; cursor: pointer; transition: color 0.2s;
+      padding-bottom: 2px; border-bottom: 1px solid transparent;
+    }
+    .nav-links a:hover, .nav-links a.active { color: var(--ink); border-bottom-color: var(--accent); }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; background: none; border: none; padding: 4px; }
+    .hamburger span { display: block; width: 22px; height: 1.5px; background: var(--ink); transition: transform 0.3s, opacity 0.3s; }
+    .hamburger.open span:nth-child(1) { transform: translateY(6.5px) rotate(45deg); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: translateY(-6.5px) rotate(-45deg); }
+    .mobile-menu {
+      display: none; position: fixed; top: 56px; left: 0; right: 0; bottom: 0; z-index: 99;
+      background: var(--bg); flex-direction: column; align-items: center; justify-content: center; gap: 2.5rem;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a { font-family: var(--serif); font-size: 2.2rem; font-weight: 300; color: var(--ink); text-decoration: none; cursor: pointer; transition: color 0.2s; }
+    .mobile-menu a:hover, .mobile-menu a.active { color: var(--accent); }
+
+    /* ── PAGES ── */
+    .page { display: none; min-height: 100vh; padding-top: 56px; animation: fadeUp 0.45s ease both; }
+    .page.active { display: block; }
+    @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
+
+    /* ── SHARED PAGE HEADER ── */
+    .page-header { padding: 5rem 3rem 2.5rem; max-width: 1100px; margin: 0 auto; border-bottom: 1px solid var(--rule); margin-bottom: 3rem; }
+    .page-header-inner { display: flex; align-items: baseline; justify-content: space-between; gap: 2rem; flex-wrap: wrap; }
+    .page-title { font-family: var(--serif); font-size: clamp(2.5rem, 4.5vw, 4rem); font-weight: 300; }
+    .page-subtitle { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-light); }
+
+    /* ── ABOUT SUBNAV ── */
+    .about-subnav {
+      position: sticky; top: 56px; z-index: 50;
+      background: var(--bg); border-bottom: 1px solid var(--rule);
+      display: flex; gap: 0; overflow-x: auto; scrollbar-width: none;
+    }
+    .about-subnav::-webkit-scrollbar { display: none; }
+    .about-subnav a {
+      font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase;
+      color: var(--ink-light); text-decoration: none; padding: 0.75rem 1.5rem;
+      border-bottom: 2px solid transparent; white-space: nowrap; transition: color 0.2s, border-color 0.2s;
+    }
+    .about-subnav a:hover { color: var(--ink); border-bottom-color: var(--rule); }
+    .about-subnav a.active { color: var(--accent); border-bottom-color: var(--accent); }
+
+    /* ── ABOUT HERO ── */
+    .about-hero {
+      padding: 5rem 3rem 4rem; max-width: 1100px; margin: 0 auto;
+      display: grid; grid-template-columns: 1fr auto; gap: 4rem; align-items: start;
+    }
+    .about-eyebrow { font-family: var(--mono); font-size: 0.7rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); margin-bottom: 1.2rem; }
+    .about-name { font-family: var(--serif); font-size: clamp(3.2rem, 5.5vw, 5rem); font-weight: 300; line-height: 1.05; margin-bottom: 1.6rem; }
+    .about-name em { font-style: italic; color: var(--accent); }
+    .about-intro { font-size: 1rem; line-height: 1.8; color: var(--ink-light); max-width: 480px; }
+    .about-intro p + p { margin-top: 0.9rem; }
+    .about-intro strong { color: var(--ink); font-weight: 500; }
+    .about-intro a { color: var(--accent); text-decoration: none; }
+    .about-intro a:hover { text-decoration: underline; }
+    .about-cover {
+      width: 240px; aspect-ratio: 3/4; background: var(--rule); border: 1px solid var(--rule);
+      display: flex; align-items: center; justify-content: center;
+      color: var(--ink-light); font-family: var(--mono); font-size: 0.65rem;
+      letter-spacing: 0.1em; text-align: center; flex-shrink: 0; overflow: hidden;
+    }
+    .about-cover img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
+    /* ── ABOUT SECTIONS ── */
+    .about-section { max-width: 1100px; margin: 0 auto; padding: 3rem 3rem; border-top: 1px solid var(--rule); }
+    .section-label { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 2rem; }
+
+    /* socials */
+    .socials-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(160px, 1fr)); gap: 1rem; }
+    .social-card {
+      display: flex; align-items: center; gap: 0.9rem; padding: 1rem 1.2rem;
+      background: var(--white); border: 1px solid var(--rule);
+      text-decoration: none; color: var(--ink);
+      transition: border-color 0.2s, box-shadow 0.2s, transform 0.2s;
+    }
+    .social-card:hover { border-color: var(--accent); box-shadow: 0 4px 16px rgba(0,0,0,0.06); transform: translateY(-2px); }
+    .social-icon { font-size: 1.2rem; color: var(--accent); width: 20px; text-align: center; flex-shrink: 0; }
+    .social-platform { font-family: var(--mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--ink-light); }
+    .social-handle { font-size: 0.88rem; font-weight: 400; color: var(--ink); margin-top: 0.1rem; }
+    .contact-email {
+      margin-top: 1.5rem; display: inline-flex; align-items: center; gap: 0.7rem;
+      font-family: var(--mono); font-size: 0.78rem; letter-spacing: 0.05em;
+      color: var(--ink); text-decoration: none; padding: 0.7rem 1.2rem;
+      border: 1px solid var(--ink); transition: background 0.2s, color 0.2s;
+    }
+    .contact-email:hover { background: var(--ink); color: var(--white); }
+
+    /* usage */
+    .usage-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    .usage-card { background: var(--white); border: 1px solid var(--rule); padding: 1.8rem; }
+    .usage-card h4 { font-family: var(--serif); font-size: 1.1rem; font-weight: 400; margin-bottom: 1.2rem; }
+    .usage-list { list-style: none; }
+    .usage-list li { font-size: 0.83rem; line-height: 1.6; color: var(--ink-light); padding: 0.4rem 0; border-bottom: 1px solid var(--rule); display: flex; gap: 0.6rem; align-items: flex-start; }
+    .usage-list li:last-child { border-bottom: none; }
+    .u-icon { flex-shrink: 0; margin-top: 0.05rem; }
+    .usage-note { font-size: 0.8rem; color: var(--ink-light); margin-top: 1rem; font-style: italic; }
+
+    /* notes */
+    .notes-list { list-style: none; display: flex; flex-direction: column; gap: 0.8rem; }
+    .notes-list li { font-size: 0.9rem; line-height: 1.7; color: var(--ink-light); padding-left: 1.2rem; border-left: 2px solid var(--rule); }
+    .notes-list li a { color: var(--accent); text-decoration: none; }
+    .notes-list li a:hover { text-decoration: underline; }
+    .friend-link {
+      display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem 1rem;
+      border: 1px solid var(--rule); font-family: var(--mono); font-size: 0.7rem;
+      letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-light);
+      text-decoration: none; margin-top: 1rem; transition: border-color 0.2s, color 0.2s;
+    }
+    .friend-link:hover { border-color: var(--accent); color: var(--accent); }
+
+    /* ── VIDEOS ── */
+    .videos-desc { max-width: 1100px; margin: 0 auto; padding: 0 3rem 2.5rem; }
+    .videos-desc p { font-size: 0.95rem; line-height: 1.8; color: var(--ink-light); max-width: 600px; }
+    .videos-desc p + p { margin-top: 0.8rem; }
+    .videos-grid { max-width: 1100px; margin: 0 auto; padding: 0 3rem 5rem; display: grid; grid-template-columns: repeat(2, 1fr); gap: 2rem; }
+    .video-card { background: var(--white); border: 1px solid var(--rule); overflow: hidden; transition: box-shadow 0.25s; }
+    .video-card:hover { box-shadow: 0 8px 32px rgba(0,0,0,0.08); }
+    .video-embed { aspect-ratio: 16/9; background: var(--ink); width: 100%; }
+    .video-embed iframe { width: 100%; height: 100%; border: none; display: block; }
+    .video-placeholder {
+      aspect-ratio: 16/9; background: linear-gradient(135deg, #2a2825 0%, #1C1B18 100%);
+      display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0.8rem; cursor: pointer;
+    }
+    .play-btn { width: 48px; height: 48px; border: 1.5px solid rgba(255,255,255,0.5); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; transition: background 0.2s; }
+    .video-placeholder:hover .play-btn { background: rgba(255,255,255,0.15); border-color: white; }
+    .video-placeholder p { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.3); }
+    .video-info { padding: 1.2rem 1.4rem 1.4rem; }
+    .video-tag { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.4rem; }
+    .video-info h3 { font-family: var(--serif); font-size: 1.2rem; font-weight: 400; margin-bottom: 0.35rem; }
+    .video-info p { font-size: 0.82rem; color: var(--ink-light); line-height: 1.55; }
+
+    /* ── PORTFOLIO ── */
+    .portfolio-filters { max-width: 1100px; margin: 0 auto; padding: 0 3rem 2rem; display: flex; gap: 0.8rem; flex-wrap: wrap; }
+    .filter-btn { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.1em; text-transform: uppercase; padding: 0.45rem 1rem; border: 1px solid var(--rule); background: transparent; color: var(--ink-light); cursor: pointer; transition: all 0.2s; }
+    .filter-btn:hover, .filter-btn.active { background: var(--ink); color: var(--white); border-color: var(--ink); }
+    .portfolio-grid { max-width: 1100px; margin: 0 auto; padding: 0 3rem 5rem; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+    .portfolio-item { aspect-ratio: 4/3; position: relative; overflow: hidden; background: var(--white); border: 1px solid var(--rule); cursor: pointer; }
+    .portfolio-item-bg { width: 100%; height: 100%; transition: transform 0.4s ease; }
+    .portfolio-item:hover .portfolio-item-bg { transform: scale(1.05); }
+    .portfolio-overlay { position: absolute; inset: 0; background: linear-gradient(to top, rgba(28,27,24,0.85) 0%, transparent 60%); opacity: 0; transition: opacity 0.3s; display: flex; align-items: flex-end; padding: 1.2rem; }
+    .portfolio-item:hover .portfolio-overlay { opacity: 1; }
+    .portfolio-overlay-text h4 { font-family: var(--serif); font-size: 1.1rem; color: white; font-weight: 400; }
+    .portfolio-overlay-text span { font-family: var(--mono); font-size: 0.65rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(255,255,255,0.6); }
+    .bg-1 { background: linear-gradient(135deg, #d4c5b0, #b8a898); }
+    .bg-2 { background: linear-gradient(135deg, #c5cfd4, #a8b8c0); }
+    .bg-3 { background: linear-gradient(135deg, #d4c5b0, #c4b0a0); }
+    .bg-4 { background: linear-gradient(135deg, #2a2825, #3d3a34); }
+    .bg-5 { background: linear-gradient(135deg, #b8c4b0, #a0b098); }
+    .bg-6 { background: linear-gradient(135deg, #d4b8a8, #c4a898); }
+
+    /* ── OTHER VENTURES ── */
+    .ventures-container { max-width: 1100px; margin: 0 auto; padding: 0 3rem 5rem; }
+    .ventures-category { margin-bottom: 4rem; }
+    .ventures-category-label { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--ink-light); margin-bottom: 1.5rem; padding-bottom: 0.75rem; border-bottom: 1px solid var(--rule); }
+    .ventures-year-group { margin-bottom: 2rem; }
+    .ventures-year { font-family: var(--serif); font-size: 1.1rem; font-weight: 300; color: var(--ink-light); margin-bottom: 0.8rem; }
+    .ventures-items { display: flex; flex-direction: column; gap: 1rem; }
+    .venture-item { background: var(--white); border: 1px solid var(--rule); display: grid; grid-template-columns: 180px 1fr; overflow: hidden; transition: border-color 0.2s; }
+    .venture-item:hover { border-color: var(--accent); }
+    .venture-item-img { width: 180px; aspect-ratio: 4/3; object-fit: cover; display: block; background: var(--rule); }
+    .venture-item-placeholder { width: 180px; aspect-ratio: 4/3; background: var(--rule); display: flex; align-items: center; justify-content: center; color: var(--ink-light); font-size: 1.8rem; flex-shrink: 0; }
+    .venture-item-body { padding: 1.4rem 1.6rem; display: flex; flex-direction: column; justify-content: center; }
+    .venture-item-body h3 { font-family: var(--serif); font-size: 1.15rem; font-weight: 400; margin-bottom: 0.4rem; }
+    .venture-item-body h3 a { color: var(--ink); text-decoration: none; transition: color 0.2s; }
+    .venture-item-body h3 a:hover { color: var(--accent); }
+    .venture-item-body p { font-size: 0.83rem; line-height: 1.6; color: var(--ink-light); }
+
+    /* ── FOOTER ── */
+    footer { border-top: 1px solid var(--rule); max-width: 1100px; margin: 0 auto; padding: 2rem 3rem; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 1rem; }
+    footer p { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.08em; color: var(--ink-light); }
+    .footer-links { display: flex; gap: 1.5rem; }
+    .footer-links a { font-family: var(--mono); font-size: 0.68rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-light); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--accent); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav#main-nav { padding: 0 1.5rem; }
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .about-hero { grid-template-columns: 1fr; gap: 2rem; padding: 3rem 1.5rem 2.5rem; }
+      .about-cover { width: 100%; max-width: 280px; }
+      .about-section { padding: 2.5rem 1.5rem; }
+      .usage-grid { grid-template-columns: 1fr; }
+      .socials-grid { grid-template-columns: repeat(2, 1fr); }
+      .page-header { padding: 3.5rem 1.5rem 2rem; }
+      .videos-desc { padding: 0 1.5rem 2rem; }
+      .videos-grid { grid-template-columns: 1fr; padding: 0 1.5rem 3rem; }
+      .portfolio-grid { grid-template-columns: repeat(2, 1fr); padding: 0 1.5rem 3rem; }
+      .portfolio-filters { padding: 0 1.5rem 1.5rem; }
+      .ventures-container { padding: 0 1.5rem 3rem; }
+      .venture-item { grid-template-columns: 1fr; }
+      .venture-item-img, .venture-item-placeholder { width: 100%; aspect-ratio: 16/9; }
+      footer { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── GLOBAL NAV ── -->
+<nav id="main-nav">
+  <a class="nav-logo" onclick="showPage('about')">ku<span>_storage</span></a>
+  <ul class="nav-links">
+    <li><a onclick="showPage('about')" class="active" data-page="about">About</a></li>
+    <li><a onclick="showPage('videos')" data-page="videos">Videos</a></li>
+    <li><a onclick="showPage('portfolio')" data-page="portfolio">Portfolio</a></li>
+    <li><a onclick="showPage('ventures')" data-page="ventures">Other Ventures</a></li>
+  </ul>
+  <button class="hamburger" id="hamburger" onclick="toggleMenu()"><span></span><span></span><span></span></button>
+</nav>
+
+<div class="mobile-menu" id="mobileMenu">
+  <a onclick="showPage('about'); closeMenu();" data-page="about">About</a>
+  <a onclick="showPage('videos'); closeMenu();" data-page="videos">Videos</a>
+  <a onclick="showPage('portfolio'); closeMenu();" data-page="portfolio">Portfolio</a>
+  <a onclick="showPage('ventures'); closeMenu();" data-page="ventures">Other Ventures</a>
+</div>
+
+<!-- ══════════════════ ABOUT ══════════════════ -->
+<section class="page active" id="page-about">
+
+  <div class="about-subnav" id="about-subnav">
+    <a href="#about-intro" class="active">Intro</a>
+    <a href="#about-socials">Socials</a>
+    <a href="#about-usage">Content Usage</a>
+    <a href="#about-notes">Notes</a>
+  </div>
+
+  <div class="about-hero" id="about-intro">
+    <div>
+      <p class="about-eyebrow">illustrator · video creator · hobbyist</p>
+      <h1 class="about-name">hi, i'm<br><em>ku</em></h1>
+      <div class="about-intro">
+        <p>I'm ku and I draw sometimes!<br>我是库，一个偶尔画画的人！</p>
+        <p>I don't check social media notifications a lot, so the fastest way to reach me is via email. Please only email for collaborations and serious enquiries.</p>
+        <p><strong>I can correspond in English or Chinese (traditional/simplified).</strong> I can also read Japanese, but there will be a delay as I'll need help proofreading my reply. Please use whichever language you're most comfortable with.</p>
+        <p style="margin-top:1.2rem;">
+          <a href="mailto:lurendesu@gmail.com" class="contact-email">
+            <i class="fa-regular fa-envelope"></i> lurendesu@gmail.com
+          </a>
+        </p>
+      </div>
+    </div>
+    <div class="about-cover">
+      <!-- To add your cover image, replace the placeholder below with:
+           <img src="images/cover.PNG" alt="ku_storage" /> -->
+      <span style="padding:1rem;text-align:center;font-size:0.62rem;">Add cover.PNG<br>to /images/</span>
+    </div>
+  </div>
+
+  <!-- SOCIALS -->
+  <div class="about-section" id="about-socials">
+    <p class="section-label">accounts / 各平台账号</p>
+    <div class="socials-grid">
+      <a class="social-card" href="https://youtube.com/@ku_storage" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-brands fa-youtube"></i></span>
+        <div><div class="social-platform">YouTube</div><div class="social-handle">@ku_storage</div></div>
+      </a>
+      <a class="social-card" href="https://www.tiktok.com/@ku_storage" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-brands fa-tiktok"></i></span>
+        <div><div class="social-platform">TikTok</div><div class="social-handle">@ku_storage</div></div>
+      </a>
+      <a class="social-card" href="https://www.instagram.com/ku_storage" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-brands fa-instagram"></i></span>
+        <div><div class="social-platform">Instagram</div><div class="social-handle">@ku_storage</div></div>
+      </a>
+      <a class="social-card" href="https://bsky.app/profile/kustorage.bsky.social" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-brands fa-bluesky"></i></span>
+        <div><div class="social-platform">Bluesky</div><div class="social-handle">@ku_storage</div></div>
+      </a>
+      <a class="social-card" href="https://space.bilibili.com/48854063" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-brands fa-bilibili"></i></span>
+        <div><div class="social-platform">Bilibili / 哔哩哔哩</div><div class="social-handle">ku_storage</div></div>
+      </a>
+      <a class="social-card" href="https://www.xiaohongshu.com/user/profile/64d762c8000000000100cec3" target="_blank" rel="noopener">
+        <span class="social-icon"><i class="fa-solid fa-seedling"></i></span>
+        <div><div class="social-platform">rednote / 小红书</div><div class="social-handle">ku_storage</div></div>
+      </a>
+    </div>
+    <p style="margin-top:1.5rem;font-size:0.78rem;color:var(--ink-light);">
+      I only use the above accounts to post publicly. Any accounts not listed are not associated with ku_storage.
+    </p>
+  </div>
+
+  <!-- CONTENT USAGE -->
+  <div class="about-section" id="about-usage">
+    <p class="section-label">using my content / 作品使用规约</p>
+    <div class="usage-grid">
+      <div class="usage-card">
+        <h4>🎬 Videos</h4>
+        <ul class="usage-list" style="margin-bottom:0.8rem;">
+          <li><span class="u-icon">✅</span><span>Repost on any platform with credit (@ku_storage), non-monetised accounts with &lt;1000 followers</span></li>
+        </ul>
+        <ul class="usage-list">
+          <li><span class="u-icon">🚫</span><span>Reposting after editing</span></li>
+          <li><span class="u-icon">🚫</span><span>Reposting on platforms I have accounts on, or with monetised accounts (without permission)</span></li>
+          <li><span class="u-icon">🚫</span><span>Commercial use or claiming as your own</span></li>
+          <li><span class="u-icon">🚫</span><span>Use in AI training datasets</span></li>
+        </ul>
+      </div>
+      <div class="usage-card">
+        <h4>🎨 Illustrations &amp; Screenshots</h4>
+        <ul class="usage-list" style="margin-bottom:0.8rem;">
+          <li><span class="u-icon">✅</span><span>Repost with credit (@ku_storage), non-monetised &lt;1000 followers</span></li>
+          <li><span class="u-icon">✅</span><span>Profile pic / banner / wallpaper on personal accounts &lt;1000 followers (credit appreciated)</span></li>
+          <li><span class="u-icon">✅</span><span>Printing for personal use</span></li>
+          <li><span class="u-icon">✅</span><span>Studying / referencing with credit when posting publicly</span></li>
+        </ul>
+        <ul class="usage-list">
+          <li><span class="u-icon">🚫</span><span>Reposting after editing</span></li>
+          <li><span class="u-icon">🚫</span><span>Printing for sale or mass gifting</span></li>
+          <li><span class="u-icon">🚫</span><span>Commercial use or competitions</span></li>
+          <li><span class="u-icon">🚫</span><span>Use in AI training datasets</span></li>
+        </ul>
+      </div>
+    </div>
+    <p class="usage-note">If in doubt, please email — lurendesu@gmail.com</p>
+  </div>
+
+  <!-- NOTES -->
+  <div class="about-section" id="about-notes">
+    <p class="section-label">other notes / 其他</p>
+    <ul class="notes-list">
+      <li>I might not get to every comment/DM due to university — sorry in advance!</li>
+      <li>I'm a hobbyist; I'm not looking to do any of this professionally and I'm fine with where I am (please no unsolicited criticism).</li>
+      <li>I love Vocaloid and started a <a href="https://kcl-vocaloid.github.io/" target="_blank" rel="noopener">Vocaloid club</a> at my university!</li>
+      <li>Since I do all of this for fun, I only want to work/interact with people I wouldn't feel uncomfortable around.</li>
+    </ul>
+    <p class="section-label" style="margin-top:2.5rem;margin-bottom:1rem;">friend links / 友链</p>
+    <a href="https://digitalsilversalt.xyz" class="friend-link" target="_blank" rel="noopener">
+      <i class="fa-solid fa-arrow-up-right-from-square" style="font-size:0.6rem;"></i> PhoenixASG
+    </a>
+  </div>
+
+  <footer>
+    <p>© 2025 ku_storage</p>
+    <div class="footer-links">
+      <a href="https://youtube.com/@ku_storage" target="_blank">YouTube</a>
+      <a href="https://www.instagram.com/ku_storage" target="_blank">Instagram</a>
+      <a href="mailto:lurendesu@gmail.com">Email</a>
+    </div>
+  </footer>
+</section>
+
+<!-- ══════════════════ VIDEOS ══════════════════ -->
+<section class="page" id="page-videos">
+  <div class="page-header">
+    <div class="page-header-inner">
+      <h2 class="page-title">Videos</h2>
+      <span class="page-subtitle">YouTube · Bilibili · TikTok</span>
+    </div>
+  </div>
+
+  <div class="videos-desc">
+    <p>A mix of illustration timelapses, Vocaloid content, and whatever else catches my interest. I post across YouTube, Bilibili, and TikTok — you can find everything linked below.</p>
+    <p>
+      <a href="https://youtube.com/@ku_storage" target="_blank" style="color:var(--accent);text-decoration:none;font-weight:400;">→ YouTube channel</a>
+      &nbsp;&nbsp;
+      <a href="https://space.bilibili.com/48854063" target="_blank" style="color:var(--accent);text-decoration:none;font-weight:400;">→ Bilibili</a>
+    </p>
+  </div>
+
+  <div class="videos-grid">
+
+    <!--
+      HOW TO EMBED A YOUTUBE VIDEO:
+      1. Go to the YouTube video
+      2. Click Share → Embed
+      3. Copy the src URL (looks like: https://www.youtube.com/embed/XXXXXXXXXXX)
+      4. Replace the <div class="video-placeholder"> block with:
+         <div class="video-embed">
+           <iframe src="YOUR_EMBED_URL" allowfullscreen></iframe>
+         </div>
+    -->
+
+    <div class="video-card">
+      <div class="video-placeholder">
+        <div class="play-btn">▶</div>
+        <p>Paste YouTube embed here</p>
+      </div>
+      <div class="video-info">
+        <p class="video-tag">Illustration</p>
+        <h3>Video Title</h3>
+        <p>Short description of this video.</p>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <div class="video-placeholder">
+        <div class="play-btn">▶</div>
+        <p>Paste YouTube embed here</p>
+      </div>
+      <div class="video-info">
+        <p class="video-tag">Vocaloid</p>
+        <h3>Video Title</h3>
+        <p>Short description of this video.</p>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <div class="video-placeholder">
+        <div class="play-btn">▶</div>
+        <p>Paste YouTube embed here</p>
+      </div>
+      <div class="video-info">
+        <p class="video-tag">Other</p>
+        <h3>Video Title</h3>
+        <p>Short description of this video.</p>
+      </div>
+    </div>
+
+    <div class="video-card">
+      <div class="video-placeholder">
+        <div class="play-btn">▶</div>
+        <p>Paste YouTube embed here</p>
+      </div>
+      <div class="video-info">
+        <p class="video-tag">Other</p>
+        <h3>Video Title</h3>
+        <p>Short description of this video.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 ku_storage</p>
+    <div class="footer-links">
+      <a href="https://youtube.com/@ku_storage" target="_blank">YouTube</a>
+      <a href="https://space.bilibili.com/48854063" target="_blank">Bilibili</a>
+    </div>
+  </footer>
+</section>
+
+<!-- ══════════════════ PORTFOLIO ══════════════════ -->
+<section class="page" id="page-portfolio">
+  <div class="page-header">
+    <div class="page-header-inner">
+      <h2 class="page-title">Portfolio</h2>
+      <span class="page-subtitle">Illustrations &amp; Design</span>
+    </div>
+  </div>
+  <div class="portfolio-filters">
+    <button class="filter-btn active">All</button>
+    <button class="filter-btn">Illustration</button>
+    <button class="filter-btn">Design</button>
+    <button class="filter-btn">Fanart</button>
+  </div>
+  <div class="portfolio-grid">
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-1"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Illustration</span></div></div></div>
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-2"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Design</span></div></div></div>
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-4"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Fanart</span></div></div></div>
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-5"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Illustration</span></div></div></div>
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-3"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Design</span></div></div></div>
+    <div class="portfolio-item"><div class="portfolio-item-bg bg-6"></div><div class="portfolio-overlay"><div class="portfolio-overlay-text"><h4>Artwork Title</h4><span>Illustration</span></div></div></div>
+  </div>
+  <footer>
+    <p>© 2025 ku_storage</p>
+    <div class="footer-links"><a href="https://www.instagram.com/ku_storage" target="_blank">Instagram</a><a href="mailto:lurendesu@gmail.com">Email</a></div>
+  </footer>
+</section>
+
+<!-- ══════════════════ OTHER VENTURES ══════════════════ -->
+<section class="page" id="page-ventures">
+  <div class="page-header">
+    <div class="page-header-inner">
+      <h2 class="page-title">Other Ventures</h2>
+      <span class="page-subtitle">Zines · Exhibitions · Merch · Works</span>
+    </div>
+  </div>
+
+  <div class="ventures-container">
+
+    <!-- WORKS -->
+    <div class="ventures-category">
+      <p class="ventures-category-label">Works / 代表作</p>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2025</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <div class="venture-item-placeholder">🎨</div>
+            <div class="venture-item-body">
+              <h3>KCL Miku Design</h3>
+              <p>Official Hatsune Miku design created for KCL Vocaloid Society.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ZINES -->
+    <div class="ventures-category">
+      <p class="ventures-category-label">Zines / 合志</p>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2025</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreigedzs2qktzgrygjr2o53vewlfgkuljy7foh6aoeczjajx366lz4a" alt="VocaJams Summertime Roadtrip" loading="lazy" />
+            <div class="venture-item-body">
+              <h3><a href="https://vocajams.eu/" target="_blank" rel="noopener">VocaJams: Summertime Roadtrip ↗</a></h3>
+              <p>A collaborative Vocaloid zine. Contributor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2024</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreid6njsped5e7spwfcjaymk5u53blsqazlaas5rsirml3nf5xdyeby" alt="Limelight MOUSIKA" loading="lazy" />
+            <div class="venture-item-body">
+              <h3><a href="https://limelightoczine.itch.io/mousika" target="_blank" rel="noopener">Limelight: an OC Zine (MOUSIKA edition) ↗</a></h3>
+              <p>Original character zine. Contributor.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EXHIBITIONS -->
+    <div class="ventures-category">
+      <p class="ventures-category-label">Exhibitions &amp; Conventions / 漫展</p>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2026</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreidsnm6svuw2wy2g5lemnwvhkjutps7jt5zi747kfzowahbiigcary" alt="KCL Art Fair" loading="lazy" />
+            <div class="venture-item-body">
+              <h3><a href="https://www.instagram.com/p/DV1hoZ8iBcy/?img_index=1" target="_blank" rel="noopener">KCL Art Fair ↗</a></h3>
+              <p>Exhibited original illustrations and prints at King's College London.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2025</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreieuythz7ttz3xfdcoec5rzyyd2od5zb4chavtn4sel6yu4zsacpva" alt="ICon Convention" loading="lazy" />
+            <div class="venture-item-body">
+              <h3><a href="https://www.instagram.com/icon_on_insta/" target="_blank" rel="noopener">ICon: Imperial's Nerdiest Convention ↗</a></h3>
+              <p>Tabled as KCL Vocaloid Society at Imperial College London's annual convention.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MERCH -->
+    <div class="ventures-category">
+      <p class="ventures-category-label">Merch / 周边</p>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2025</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreicoouzvqqex4wr4jpe5fylaz5atbcvad3f4b72wdnvqmztipf277u" alt="KCL Vocaloid Merch" loading="lazy" />
+            <div class="venture-item-body">
+              <h3>KCL Vocaloid Merchandise</h3>
+              <p>Design only. Official merchandise for the KCL Vocaloid Society.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="ventures-year-group">
+        <p class="ventures-year">2024</p>
+        <div class="ventures-items">
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreifsovxss5lz4wfx2axr25bu7lkn6avjhoppnr5hiohqm356o45rqu" alt="Miku Expo keychain" loading="lazy" />
+            <div class="venture-item-body">
+              <h3>Miku Expo Keychain &amp; Stickers</h3>
+              <p>Design and illustration. Created for the Hatsune Miku Expo.</p>
+            </div>
+          </div>
+          <div class="venture-item">
+            <img class="venture-item-img" src="https://cdn.bsky.app/img/feed_fullsize/plain/did:plc:aaek2k7iyen6nzdomycneaiz/bafkreiauixl7fkensqn62yn5i5hundxn44tl4kc2p5zxncy3m6o4aklwg4" alt="OC keychain" loading="lazy" />
+            <div class="venture-item-body">
+              <h3>Original Character Keychain</h3>
+              <p>Gifted to friends. Design and illustration.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <p>© 2025 ku_storage</p>
+    <div class="footer-links">
+      <a href="https://youtube.com/@ku_storage" target="_blank">YouTube</a>
+      <a href="mailto:lurendesu@gmail.com">Email</a>
+    </div>
+  </footer>
+</section>
+
+<script>
+  function showPage(id) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + id).classList.add('active');
+    document.querySelectorAll('[data-page]').forEach(a => a.classList.toggle('active', a.dataset.page === id));
+    window.scrollTo({ top: 0, behavior: 'instant' });
+  }
+
+  function toggleMenu() {
+    document.getElementById('hamburger').classList.toggle('open');
+    document.getElementById('mobileMenu').classList.toggle('open');
+  }
+  function closeMenu() {
+    document.getElementById('hamburger').classList.remove('open');
+    document.getElementById('mobileMenu').classList.remove('open');
+  }
+
+  // About subnav scroll highlight
+  const subnav = document.getElementById('about-subnav');
+  const aboutSections = ['about-intro', 'about-socials', 'about-usage', 'about-notes'];
+  window.addEventListener('scroll', () => {
+    if (!document.getElementById('page-about').classList.contains('active')) return;
+    let current = aboutSections[0];
+    aboutSections.forEach(id => {
+      const el = document.getElementById(id);
+      if (el && window.scrollY >= el.offsetTop - 130) current = id;
+    });
+    subnav.querySelectorAll('a').forEach(a => {
+      a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+    });
+  });
+
+  // Portfolio filter (visual only — wire up filtering when you add real images)
+  document.querySelectorAll('.filter-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+    });
+  });
+</script>
+</body>
+</html>
