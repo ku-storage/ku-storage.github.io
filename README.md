@@ -1,7 +1,7 @@
 # ku-storage.github.io
 https://ku-storage.github.io
 
-This website was created with assistance from Claude.<br><br>
+This website was created with assistance from Claude.<br>
 
 This repository is not open source; it uses the PolyForm Noncommercial License, which is a source-available license that restricts any commercial usage of the repo's contents.
 
