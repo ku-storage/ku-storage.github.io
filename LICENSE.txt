@@ -2,7 +2,7 @@ PolyForm Noncommercial License 1.0.0
 
 https://polyformproject.org/licenses/noncommercial/1.0.0
 
-Required Notice: Copyright (c) 2026 Lucas-on-the-code.
+Required Notice: Copyright (c) ku_storage.
 Required Notice: These terms apply only to material for which the licensor owns the necessary rights. They do not license third-party characters, trademarks, artwork, audio, lyrics, rankings, datasets, or other third-party material.
 
 Acceptance
